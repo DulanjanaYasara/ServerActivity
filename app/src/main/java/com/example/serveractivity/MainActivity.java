@@ -71,7 +71,6 @@ public class MainActivity extends AppCompatActivity {
                 });
                 os.writeBytes(str);
                 os.flush();
-//                os.close();
 
             } catch (Exception e) {
                 System.out.println(e);
